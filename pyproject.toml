@@ -1,10 +1,11 @@
 [project]
-name = "crawler-2"
+name = "crawler-1"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "crawl4ai>=0.7.7",
     "ipykernel>=7.1.0",
     "playwright>=1.56.0",
 ]
