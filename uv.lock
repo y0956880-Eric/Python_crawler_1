@@ -639,7 +639,11 @@ source = { virtual = "." }
 dependencies = [
     { name = "crawl4ai" },
     { name = "ipykernel" },
+<<<<<<< HEAD
     { name = "pandas" },
+=======
+    { name = "nest-asyncio" },
+>>>>>>> ae98d9f0a5e73c1c9f9fe5cc1d01891a26788908
     { name = "playwright" },
     { name = "streamlit" },
 ]
@@ -648,7 +652,11 @@ dependencies = [
 requires-dist = [
     { name = "crawl4ai", specifier = ">=0.7.7" },
     { name = "ipykernel", specifier = ">=7.1.0" },
+<<<<<<< HEAD
     { name = "pandas", specifier = ">=2.3.3" },
+=======
+    { name = "nest-asyncio", specifier = ">=1.6.0" },
+>>>>>>> ae98d9f0a5e73c1c9f9fe5cc1d01891a26788908
     { name = "playwright", specifier = ">=1.56.0" },
     { name = "streamlit", specifier = ">=1.52.1" },
 ]
